@@ -1,0 +1,66 @@
+// Header
+
+header {
+  padding: 10px;
+
+  .dropdown.menu.vertical > li.opens-right > .is-dropdown-submenu {
+    right: initial;
+    left: initial;
+    top: 48px;
+    margin: 0;
+  }
+
+  .top-bar, .top-bar ul, .title-bar {
+    background: white;
+  }
+
+}
+
+
+// Slider Orbit
+
+.orbit {
+
+  position: relative;
+
+  .orbit-image {
+
+    cursor:pointer;
+
+    &:hover {
+        transform: scale(1.2);
+        -webkit-filter: blur(5px);
+        filter: blur(5px);
+        transition: 0.3s ease all;
+    }
+
+  }
+
+  .orbit-bullets {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+
+// Nouveauté
+
+.nouveaute {
+
+  background: url('../img/bg_nouveaute.png') no-repeat;
+  background-size: cover;
+
+
+}
+
+
+@media screen and (max-width: 1024px) {
+
+  .grid-container {
+    padding: 0;
+    text-align: center;
+  }
+
+}
